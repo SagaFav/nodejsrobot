@@ -2,7 +2,7 @@
 爬取某个站点下所有的网页以及静态资源
 
 #使用例子
-`
+```javascript
 var Robot = require("./robot.js");
 var iStartTimestamp = Math.ceil( (new Date()).getTime() / 1000 );
 var oOptions = {
@@ -40,4 +40,4 @@ var oOptions = {
 };
 var o = new Robot(oOptions);
 o.crawl(); //开始抓取
-`
+```
